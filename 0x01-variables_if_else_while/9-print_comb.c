@@ -9,7 +9,8 @@
  */
 int main(void)
 {
-	for (int r = 48; r < 58; r++)
+	int r;
+	for (r = 48; r < 58; r++)
 	{
 		putchar(r);
 		if (r != 57)

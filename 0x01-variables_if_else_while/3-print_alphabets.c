@@ -14,7 +14,7 @@ char cr[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 	for (r = 0; r < 52; r++)
 	{
-		putchar(cr[i]);
+		putchar(cr[r]);
 	}
 	putchar('\n');
 	return (0);
