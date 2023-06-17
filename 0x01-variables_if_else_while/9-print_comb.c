@@ -10,6 +10,7 @@
 int main(void)
 {
 	int r;
+
 	for (r = 48; r < 58; r++)
 	{
 		putchar(r);
