@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - printing char .
- * 
+ *
  * Return: 1 .
  */
 
