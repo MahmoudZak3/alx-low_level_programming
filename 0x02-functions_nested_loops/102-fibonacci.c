@@ -2,7 +2,7 @@
 
 /**
  * main - first 50 Fibonacci numbers printing .
- * ending by space. 
+ * ending by space.
  *
  * Return: Always 0.
  */
