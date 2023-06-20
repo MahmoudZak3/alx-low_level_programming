@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * print sign - of a num
- * Return: 1 if n is greater than 0
+ * print_sign - printing num for check.
+ * @x: var for  check
+ * Return: 1 & print + if x is greater than 0
+ * 0 and prints 0 if x is 0
  */
 int print_sign(int x)
 {
