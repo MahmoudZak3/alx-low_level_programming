@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * printing : print alpha 10 times .
+ * print_alphabet_x10 - printing 10 time the alph, lower,
+ * and ne line
  */
 void print_alphabet_x10(void)
 {
