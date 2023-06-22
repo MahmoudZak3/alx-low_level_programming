@@ -5,7 +5,6 @@
  * @c: chars for checking
  *
  * Return: 1 if succes or 0 else if not succes Always 0.
-
  */
 
 int _isupper(int c)
