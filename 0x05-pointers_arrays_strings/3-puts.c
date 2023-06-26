@@ -2,7 +2,7 @@
 
 /**
  * _puts - string porint .
- * @strstring porint .
+ * @str: string porint .
  * Return: 0.
  */
 void _puts(char *str)
