@@ -5,7 +5,7 @@
  *
  * @s1: First string input value
  *
- * @s2: input value Second string 
+ * @s2: input value Second string
  *
  * Return: 0 equal or 1 greater than 1
  */
