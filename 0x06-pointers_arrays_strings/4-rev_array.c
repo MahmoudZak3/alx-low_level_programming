@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * reverse_array - the content of an array of integers reverse 
+ * reverse_array - the content of an array of integers reverse
  *
  * @a: in put array of integers
  *
