@@ -17,7 +17,7 @@ int _strlen(char *s)
 }
 
 /**
- * _compare -> - checks a characters recursively 
+ * _compare -> - checks a characters recursively
  *
  * @s: Inpute string to reverse
  * @len: String Length
