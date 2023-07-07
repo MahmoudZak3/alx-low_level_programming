@@ -8,7 +8,7 @@
  * main -  takes in all integer arguments and returns the sum
  * @argc: Number of arguments
  * @argv: Array of names
- * Return: 1 if a non-integer is among the passed in arguments, Always 0  otherwise
+ * Return: 1 if a non-integer is among passed in arguments,or 0 otherwise
  */
 
 int main(int argc, char *argv[])

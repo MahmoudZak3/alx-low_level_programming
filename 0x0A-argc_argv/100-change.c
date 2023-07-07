@@ -33,7 +33,7 @@ int _atoi(char *s)
 }
 
 /**
- * main -> Program minimum number of coins 
+ * main -> Program minimum number of coins
  *
  * @argc: Size array argv of arguments
  * @argv: Array of size argc of arguments
