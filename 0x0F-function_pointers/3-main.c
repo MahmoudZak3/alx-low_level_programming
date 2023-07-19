@@ -3,9 +3,9 @@
 #include "3-calc.h"
 
 /**
- * main - operations between result of simple  intergers
- * @argv: argument value array
- * @argc: arguments supplied  argument counter
+ * main - operations Prints the result of simple operations between intergers
+ * @argv: argument The number of arguments supplied to the  value array
+ * @argc: An array of pointers to the arguments argument counter
  * Return: result of the operation
  */
 
