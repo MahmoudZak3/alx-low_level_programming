@@ -2,8 +2,8 @@
 /**
  *listint_len - returns the number of elements in
  *a linked list
- *@h: pointer to the first element
- *Return: the number of elements
+ *@h: pointer linked list of type listint_t
+ *Return: the number of nodes
  */
 size_t listint_len(const listint_t *h)
 {
