@@ -2,34 +2,37 @@
 /**
  * delete_nodeint_at_index -deletes a node
  * @head: pointer to the first node
- * @idx: index to the first node
+ * @index: index to the first node
  * Return: 1 if success, - 1 if fails
  */
-int delete_nodeint_at_index(listint_t **head, unsigned int idx)
+int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
-listint_t *temp, *temp_addr;
-unsigned int count;
+	listint_t *temp = *head;
+	listint_t *current = NULL;
+	unsigned int i = 0;
 
-temp = *head;
-count = 0;
-while (temp)
-{
-if (count == (idx - 1))
-{
-temp_addr = (temp->next)->next;
-free(temp->next);
-temp->next = temp_addr;
-return (1);
-}
-else if (idx == 0)
-{
-temp = *head;
-*head = (*head)->next;
-free(temp);
-return (1);
-}
-count++;
-temp = temp->next;
-}
-return (-1);
+	if (*head == NULL)
+		return (-1);
+
+	if (index == 0)
+	{
+		*head = (*head)->next;
+		free(temp);
+		return (1);
+	}
+
+	while (i < index - 1)
+	{
+		if (!temp || !(temp->next))
+			return (-1);
+		temp = temp->next;
+		i++;
+	}
+
+
+	current = temp->next;
+	temp->next = current->next;
+	free(current);
+
+	return (1);
 }
