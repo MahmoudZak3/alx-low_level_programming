@@ -2,16 +2,15 @@
 #define LISTS_H
 
 /*
- * File: lists.h
- * Author: Onyiana
+ * Author: Zak
  */
 
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * struct dlistint_s - doubly linked list
- * @n: integer
+ * struct dlistint_s - linked list
+ * @n: int
  * @prev: points to the previous node
  * @next: points to the next node
  *
