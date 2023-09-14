@@ -1,15 +1,13 @@
 /*
- * File: 0-print_dlistint.c
- * Author: Ukonu Divine Chisom
+ * Author: Zak
  */
 
 #include "lists.h"
 
 /**
- * print_dlistint - Prints all the elements of a dlistint_t list.
- * @h: The head of the dlistint_t list.
- *
- * Return: The number of nodes in the list.
+ * print_dlistint -  elements of a dlistint_t Print.
+ * @h: the dlistint_t list head .
+ * Return:  number of nodes in the list.
  */
 size_t print_dlistint(const dlistint_t *h)
 {
