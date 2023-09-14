@@ -1,9 +1,8 @@
 #include "lists.h"
 
 /**
- * sum_dlistint - Sums all the data of a dlistint_t list.
- * @head: The head of the dlistint_t list.
- *
+ * sum_dlistint - add all the data of  list.
+ * @head:  head of the dlistint_t list.
  * Return: The sum of all the data.
  */
 int sum_dlistint(dlistint_t *head)
